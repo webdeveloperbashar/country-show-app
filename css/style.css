@@ -1,0 +1,84 @@
+/**Google font link**/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+#input-value {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 7px 35px;
+}
+
+.country-info {
+  font-family: "Poppins", sans-serif;
+  height: 250px;
+  cursor: pointer;
+}
+.country-info img {
+  height: 100px;
+}
+.country-info h4 {
+  font-weight: 700;
+  margin: 5px 0;
+  font-size: 16px;
+}
+p.text-center {
+  margin: 0;
+  font-size: 14px;
+  padding: 3px 0;
+}
+span {
+  font-weight: 600;
+}
+.data-input-field i {
+  position: absolute;
+  z-index: 99;
+  padding: 15px 13px;
+  color: gray;
+}
+
+th{
+    font-size: 22px;
+    font-weight: 600;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+div#country-desc {
+    box-shadow: 0px 2px 8px;
+}
+tr:nth-child(2n){
+    background: rgba(119, 119, 119, 0.479);
+}
+
+table {
+    font-family: "Poppins", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+}
+i#close {
+    position: absolute;
+    right: 385px;
+    top: 45px;
+    width: 5px;
+    font-size: 23px;
+    background: white;
+    padding: 8px;
+    cursor: pointer;
+}
+#details-panel{
+    display: none;
+}
